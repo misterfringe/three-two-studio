@@ -1,0 +1,147 @@
+
+/*global font*/
+@font-face {
+font-family: SFUIDisplay;
+src: url(fonts/SF-Pro-Display-Medium.otf);
+}
+
+html{
+  font-family: SFUIDisplay;
+}
+/*-----------------------*/
+
+
+
+.nav {
+  margin-bottom: -8em;
+
+
+}
+
+
+.gif {
+  margin-left: -4em;
+
+
+}
+
+
+.myPanel {
+  color:#5d6278; 
+  margin: 5.25em;
+  margin-top: 8em;
+
+}
+
+
+.row {
+  font-size: 15px;
+   padding-top: .75em;
+}
+
+
+.heading {
+  color: #717791;
+  margin: 3%;
+}
+
+.heading {
+  width: 620px;
+  height: 120px;
+  font-family: SFUIDisplay;
+  font-size: 50px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #5d6278;
+  color: var(--slate-grey);
+}
+
+
+.body {
+  margin-left: 1.15em;
+  margin-bottom: 4em;
+  width: 529px;
+  height: 12px;
+  font-family: SFUIDisplay;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.27;
+  letter-spacing: normal;
+  color: #717791;
+  color: var(--steel);
+}
+
+
+
+
+
+
+
+
+
+
+/*not used font styles*/
+
+.NEW-PROJECTS {
+  width: 123px;
+  height: 19px;
+  font-family: SFUIDisplay;
+  font-size: 12px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  color: #717791;
+  color: var(--steel);
+}
+
+
+.WERE-HIRING {
+  width: 108px;
+  height: 19px;
+  font-family: SFUIDisplay;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  color: #717791;
+  color: var(--steel);
+}
+
+
+.hellothreetwostudio {
+  width: 209px;
+  height: 21px;
+  font-family: SFUIDisplay;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #3f72ba;
+  color: var(--windows-blue);
+}
+
+.jobsthreetwostudio {
+  width: 204px;
+  height: 21px;
+  font-family: SFUIDisplay;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #f04646;
+  color: var(--tomato);
+}
+
