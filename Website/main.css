@@ -1,44 +1,42 @@
-
 /*global font*/
+
 @font-face {
-font-family: SFUIDisplay;
-src: url(fonts/SF-Pro-Display-Medium.otf);
+  font-family: SFUIDisplay;
+  src: url(fonts/SF-Pro-Display-Medium.otf);
 }
 
-html{
+html {
   font-family: SFUIDisplay;
 }
+
 /*-----------------------*/
-
-
 
 .nav {
   margin-bottom: -8em;
-
-
 }
-
 
 .gif {
   margin-left: -4em;
-
-
 }
 
+.red-text {
+  color: #cc0000;
+}
+
+.red-text:hover {
+  color: red;
+}
 
 .myPanel {
-  color:#5d6278; 
+  color: #5d6278;
   margin: 5.25em;
   margin-top: 8em;
-
 }
-
 
 .row {
   font-size: 15px;
-   padding-top: .75em;
+  padding-top: .75em;
 }
-
 
 .heading {
   color: #717791;
@@ -55,10 +53,9 @@ html{
   font-stretch: normal;
   line-height: normal;
   letter-spacing: normal;
-  color: #5d6278;
-  color: var(--slate-grey);
+  color: rebeccapurple;
+  /*5d6278*/
 }
-
 
 .body {
   margin-left: 1.15em;
@@ -72,18 +69,8 @@ html{
   font-stretch: normal;
   line-height: 1.27;
   letter-spacing: normal;
-  color: #717791;
-  color: var(--steel);
+  color: lime;
 }
-
-
-
-
-
-
-
-
-
 
 /*not used font styles*/
 
@@ -101,7 +88,6 @@ html{
   color: var(--steel);
 }
 
-
 .WERE-HIRING {
   width: 108px;
   height: 19px;
@@ -115,7 +101,6 @@ html{
   color: #717791;
   color: var(--steel);
 }
-
 
 .hellothreetwostudio {
   width: 209px;
@@ -144,4 +129,3 @@ html{
   color: #f04646;
   color: var(--tomato);
 }
-
