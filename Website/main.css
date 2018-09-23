@@ -1,131 +1,692 @@
-/*global font*/
+	/* font style input*/
 
-@font-face {
-  font-family: SFUIDisplay;
-  src: url(fonts/SF-Pro-Display-Medium.otf);
+	@font-face {
+	font-family: SFUIDisplay;
+	src: url(fonts/SF-Pro-Display-Medium.otf);
+
+	}
+	@font-face {
+	font-family: Thin;
+	src: url(fonts/SF-Pro-Display-Thin.otf);
+
+	}
+
+
+
+	/* global styles */
+
+	html {
+		font-family: SFUIDisplay;
+}
+	footer {
+		font-family: thin;
+}
+	body {
+		margin: 0;
+		font-family:SFUIDisplay;
+		background: none;
+		font-size: 1.1em;
+		line-height: 1.5;
+		text-align: left;
 }
 
-html {
-  font-family: SFUIDisplay;
+	img {
+		display: block;
+		width: 100%;
+		height: 100%;
+}
+	h1 {
+		margin: 0;
+		padding: 1em 0;
+		color: #5d6278;
+}
+	h2 {
+		margin: 0;
+		padding: 1em 0;
+		color: #717791
+		font-size: 80px;
+}
+	p {
+		border-right: 0;
+		margin: 0;
+		padding: 0;
+		color: #717791;
+}
+	h3 {
+		margin: 0;
+		padding: .4em;
+		color: white;
+		width: 275px;
+		height: 14px;
+		font-size: 13px;
+		font-weight: 100;
+		font-style: normal;
+		font-stretch: normal;
+		line-height: 1.08;
+		letter-spacing: normal;
+		align-content: center
+
 }
 
-/*-----------------------*/
 
-.nav {
-  margin-bottom: -8em;
+
+	/* hyperlink styles */
+
+	.blue-text {
+		color: #0000EE;
+}
+	.blue-text:hover {
+		color: #5d6278;
+}
+	.red-text {
+		color: #cc0000;
+}
+	.red-text:hover {
+		color: #5d6278;
+}
+	.grey-text {
+		color: #cc0000;
+}
+	.grey-text:hover {
+		color: #000000;
+}
+	.row {
+		font-size: 18px;
+}
+	.wrapper {
+		padding-left: 6em;
+}
+	.wrapper2 {
+		padding-left: 6em;
+		margin-left: 0;
+		border-left: 0;
+}
+	.content-wrap {
+		align-content: center;
+}
+	.copyright {
+		padding-right: 3em;
 }
 
-.gif {
-  margin-left: -4em;
+
+
+
+/* Header Showcase
+#showcase {
+min-height: 100%;
+color: #fff;
+text-align: center;
+}
+#showcase h1 {
+padding-top: 100px;
+padding-bottom: 0;
+}
+#showcase .content-wrap,
+#section-a .content-wrap
+#section-a .content-wrap  {
+padding: 0 1.5em;
+} */
+
+
+
+	/* Section A */
+
+	#section-a {
+		background: white;
+		color: #717791;
+		padding-bottom: 2em;
+		padding-left: 6em;
+		margin-top: 0;
 }
 
-.red-text {
-  color: #cc0000;
+
+
+	/* Section B */
+	
+	#section-b {
+		size: auto;
+		padding: 2em 1em 1em;
+}
+	#section-b ul {
+		list-style: none;
+}
+	#section-b li {
+		margin-bottom: 1em;
+		background: none;
 }
 
-.red-text:hover {
-  color: red;
+
+
+	/* Section C */
+	
+	#section-c {
+		background: #fff;
+		color: #717791;
+		padding: 1em;
+		text-align: center;
 }
 
-.myPanel {
-  color: #5d6278;
-  margin: 5.25em;
-  margin-top: 8em;
+
+
+	/* Section D */
+	
+	#section-d {
+		padding-bottom: 2em;
+		padding-left: 6em;
+		margin-top: 0;
 }
 
-.row {
-  font-size: 15px;
-  padding-top: .75em;
+
+
+	/* Footer */
+
+	#main-footer {
+		align-content: center;
+		padding: 1em;
+		background: #646e87;
+		color: #717791;
+		text-align: left;
+		line-height: 1;
+		font-weight: 100;
 }
 
-.heading {
-  color: #717791;
-  margin: 3%;
+	#main-footer a {
+		color: #646e87;
+		text-decoration: none;
+
+}
+	#main-footer a:hover {
+		color: #646e87;
 }
 
-.heading {
-  width: 620px;
-  height: 120px;
-  font-family: SFUIDisplay;
-  font-size: 50px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: rebeccapurple;
-  /*5d6278*/
+
+
+/*______________________________________*/
+
+
+		/*MEDIA QUERIES*/
+
+		/* MOBILE VERSION */
+	
+	@media screen and (max-width: 414px) {
+		div br {
+			display: none;
+	}
+
+		h3 {
+			padding: 0 0 3em 2em;
+			
+	}
+		h2.content-title {
+			width: 320px;
+			padding-left: 2.6em;
+			font-size: 30px;
+			color: #5d6278;
+			line-height: 1.2;
+
+	}
+		h2 {
+			font-family:SFUIDisplay;
+			background: none;
+			font-size: 26px;
+			line-height: 1.5;
+			text-align: left;
+			margin: 0;
+			padding: 1em 0;
+			color: #717791
+	}
+		h1 {		
+			width: 280px;
+  			height: 87px;
+			padding-left: 80px;
+			padding-top: 0;
+			font-family: SFUIDisplay;
+			font-size: 14px;
+			line-height: 1.5;
+			letter-spacing: normal;
+			color: #717791;
+			
+	}
+		body {
+			margin: 0;
+			font-family:SFUIDisplay;
+			background: none;
+			font-size: 12px;
+			line-height: 1.5;
+			text-align: left;
+	}
+		a {
+			padding: .5em 1em 1em 1em;
+	}
+		p {
+			padding: 1em 1em .5em 1em;
+	}
+
+		.wrapper {
+			padding-left: 5.6em;
+			padding-right: 0em;
+			padding-bottom: 1em;
+			margin-right: 0em;
+			text-align: left;
+	}
+		.wrapper2 {
+			padding-left: 5.6em;
+			margin-left: 0;
+			border-left: 0;
+			text-align: left;
+	}
+		section#section-a.grid {
+			padding-left: 0;
+
+
+	}			
+		#section-b ul {
+			align-items: right;
+			padding-left: 2em;
+			margin-top: 2em;
+			margin-right: auto;
+			margin-bottom: 4.5em;
+	}
+		#section-b li {
+			width: 28em;
+	}
+		#main-footer {
+			align-content: center;
+			padding: 1em 3em 1em 3em;
+			margin-left: 0;
+			background: #646e87;
+			color: #717791;
+			text-align: center;
+			line-height: 1;
+			font-weight: 100;
+	}
+		#main-footer a {
+			color: #646e87;
+			text-decoration: none;
+	}
+		#main-footer a:hover {
+			color: #646e87;
+	}
 }
 
-.body {
-  margin-left: 1.15em;
-  margin-bottom: 4em;
-  width: 529px;
-  height: 12px;
-  font-family: SFUIDisplay;
-  font-size: 20px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.27;
-  letter-spacing: normal;
-  color: lime;
+
+
+	/* Media Query 13in Monitor */
+
+
+@media (min-width: 1020px) and (max-width: 1290px) {
+
+
+		h2.content-title {
+			width: 800px;
+			padding-left: 1em;
+			font-size: 35px;
+			color: #5d6278;
+			line-height: 1.2;
+
+	}
+
+		h1 {		
+			width: 800px;
+			height: 87px;
+			padding-left: 1.8em;
+			padding-top: 0;
+			font-family: SFUIDisplay;
+			font-size: 20px;	
+			line-height: 1.5;
+			letter-spacing: normal;
+			color: #717791;
+			
+	}
+
+		.nav {
+			height: 40%;
+			width: 40%;
+	}
+
+		.content-title {
+			font-size: 48px;
+			padding-left: 0;
+			margin-left: 0;
+
+	}
+		.content-text {
+			font-size: 18px;
+			padding-bottom: 2em;
+			padding-left: 0;
+			padding-right: 20em;
+	}
+		.wrapper {
+			width: 300px;
+			padding-left: 7.8em;
+			padding-right: 0em;
+			margin-right: 0em;
+	}
+		.wrapper2 {
+			width: 500px;
+			padding-left: 7.8em;
+			padding-top: 1em;
+			margin-left: 0;
+			border-left: 0;
+	}
+		.column {
+		font-size: 16px;
+	}
+		.content-wrap {
+		grid-column: 1/4;
+	}
+		a {
+			padding-left: 0em;
+	}
+		p {
+			padding-left: -50em;
+			margin-width: 0;
+			border-width: 0;
+	}
+		#section-a .content-text {
+			columns: 1;
+			column-gap: 2em;
+			margin-left: 0%;
+	}
+		#section-a p {
+			padding-top: 0px;
+			grid-column: 1/4;
+	}
+		#section-b ul {
+			align-items: right;
+			padding-left: 640px;
+			margin-top: -26em;
+			margin-right: auto;
+			margin-left: 0;
+	}
+		#section-b li {
+			width: 35em;
+	}
+		#section-c {
+			background: #fff;
+			color: #717791;
+			padding: 1em;
+			text-align: left;
+			margin-top: 12em;
+			padding-left: 6em;
+	}
+
+		#main-footer {
+			padding: 1.5em;
+			padding-left: 26em;
+			background: #646e87;
+			color: white;
+			text-align: center;
+			margin-top: 5em;
+	}
+		#main-footer a {
+			color: #646e87;
+			text-decoration: none;
+	}
+		#main-footer a:hover {
+			color: #646e87;
+	}
 }
 
-/*not used font styles*/
 
-.NEW-PROJECTS {
-  width: 123px;
-  height: 19px;
-  font-family: SFUIDisplay;
-  font-size: 12px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: 0.5px;
-  color: #717791;
-  color: var(--steel);
+
+
+			/* Media Query 15in Monitor*/
+		
+
+		@media (min-width: 1300px) and (max-width: 1550px) {
+		.grid {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr;
+	}
+		.nav {
+			height: 110%;
+			width: 110%;
+
+	}
+
+		.content-title {
+			font-size: 50px;
+			padding-left: 0em;
+			padding-bottom: .75em;
+			margin-left: 0;
+
+	}
+		.wrapper {
+			padding-left: 6em;
+			padding-right: 0em;
+			margin-right: 0em;
+	}
+		.wrapper2 {
+			padding-left: 3em;
+			margin-left: 0;
+			border-left: 0;
+	}
+		.column {
+			font-size: 12px;
+	}
+		.content-wrap {
+			grid-column: 1/4;
+	}
+		h1 {
+		  width: 529px;
+		  height: 84px;
+		  font-family: SFUIDisplay;
+		  font-size: 22px;
+		  font-weight: 500;
+		  font-style: normal;
+		  font-stretch: normal;
+		  line-height: 1.27;
+		  letter-spacing: normal;
+		  color: #717791;
+		  color: var(--steel);
+	}  
+
+		h2 {
+		  width: 577px;
+		  height: 120px;
+		  font-family: SFUIDisplay;
+		  font-size: 50px;
+		  font-weight: 500;
+		  font-style: normal;
+		  font-stretch: normal;
+		  line-height: normal;
+		  letter-spacing: normal;
+		  color: #5d6278;
+		  color: var(--slate-grey);
+	}
+		h3 {
+			padding-top: 20px;
+	}
+		a {
+			padding-left: 0em;
+			font-size: 18px;
+	}
+		p {
+			padding-left: -50em;
+			margin-width: 0;
+			border-width: 0;
+			font-size: 16px;
+	}
+
+
+
+		div.content-wrap {
+			width: 600px;
+		}
+
+		
+		#section-a .content-text {
+			columns: 1;
+			column-gap: 2em;
+			margin-left: 0%;
+			margin-bottom: 2em;
+
+	}
+		#section-a .content-title {
+			margin-bottom: 39px;
+			padding-top: 39px;
+	}
+		#section-a p {
+			padding-top: 0px;
+			grid-column: 1/4;
+	}	
+		#section-b ul {
+			padding-left: 740px;
+			margin-top: -24em;
+			margin-right: 0;
+			margin-left: 0;
+	}
+		#section-b img {
+			width: 35em;
+
+
+	}
+		#section-c {
+			background: #fff;
+			color: #717791;
+			padding: 1em;
+			text-align: left;
+			margin-top: 12em;
+			padding-left: 6em;
+	}
+		#section-d {
+			columns: 1;
+	}
+		#main-footer {
+			height: 75px;
+			padding-left: 58.5em;
+			background: #646e87;
+			color: white;
+			text-align: right;
+			margin-top: 10em;
+			
+	}
+		#main-footer a {
+
+			color: #646e87;
+			text-decoration: none;
+	}
+		#main-footer a:hover {
+			color: #646e87;
+	}
 }
 
-.WERE-HIRING {
-  width: 108px;
-  height: 19px;
-  font-family: SFUIDisplay;
-  font-size: 16px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: 0.5px;
-  color: #717791;
-  color: var(--steel);
+
+
+		/* DESKTOP VIEW 1920x1080*/	
+
+
+		@media (min-width: 1600px) {
+		
+		.grid {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr;
+	}
+		.content-title {
+			font-size: 51px;
+			padding-left: .4em;
+			margin-bottom: -.7em;
+
+	}
+		.content-text {
+			font-size: 26px;
+			padding-bottom: 2em;
+			padding-left: 1em;
+	}
+		.wrapper {
+			padding-left: 7.5em;
+			padding-right: 0em;
+			margin-right: 0em;
+	}
+		.wrapper2 {
+			padding-left: 0em;
+			margin-left: -2em;
+			border-left: 0;
+	}
+		.column {
+			font-size: 16px;
+	}
+		.content-wrap {
+			grid-column: 1/4;
+	}
+		a {
+			padding-left: 0em;
+			font-size: 20px;
+	}
+		p {
+			padding-left: -50em;
+			margin-width: 0;
+			border-width: 0;
+			font-size: 18px;
+	}
+		h1 {
+			width: 560px;
+			height: 60px;
+			font-family: SFUIDisplay;
+			font-size: 22px;
+			font-weight: 500;
+			font-style: normal;
+			font-stretch: normal;
+			line-height: 1.27;
+			letter-spacing: 0;
+			color: #717791;
+			color: var(--steel);
+	}
+		#section-a .content-text {
+			columns: 1;
+			column-gap: 2em;
+	}
+		#section-a p {
+			padding-top: 0px;
+			grid-column: 1/4;
+	}
+		#section-b ul {
+			align-items: right;
+			padding-left: 910px;
+			margin-top: -32em;m
+			margin-right: auto;
+
+	}
+		#section-b li {
+			width: 50em;
+	}
+		#section-c {
+			background: #fff;
+			color: #717791;
+			padding: 1em;
+			text-align: left;
+			margin-top: 12em;
+			padding-left: 6em;
+	}
+		#section-d {
+			columns: 1;
+	}
+		#main-footer {
+			padding: 1.5em 0 1.5em 0;
+			padding-left: 84em;
+			background: #646e87;
+			color: white;
+			text-align: right;
+			margin-top: 8em;
+			margin-bottom: 0;
+	}
+		#main-footer a {
+			color: #646e87;
+			text-decoration: none;
+	}
+		#main-footer a:hover {
+			color: #646e87;
+	}
+
+
 }
 
-.hellothreetwostudio {
-  width: 209px;
-  height: 21px;
-  font-family: SFUIDisplay;
-  font-size: 18px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #3f72ba;
-  color: var(--windows-blue);
-}
 
-.jobsthreetwostudio {
-  width: 204px;
-  height: 21px;
-  font-family: SFUIDisplay;
-  font-size: 18px;
-  font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: normal;
-  color: #f04646;
-  color: var(--tomato);
+
+/*testing for 2560x1440 monitors */
+
+		@media (max-width: 2550) {
+
+
 }
